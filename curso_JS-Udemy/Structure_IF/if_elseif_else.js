@@ -12,7 +12,16 @@ const imprimirResult = function (nota) {
     else if (nota.entre(4, 6.99)) {
         console.log('Recuperação!')
     }
-    else {
+    else if (nota.entre(0, 3.99)) {
         console.log('Reprovado!')
     }
+    else {
+        console.log('Nota inválida!')
+    }
 }
+
+imprimirResult(10)
+imprimirResult(5)
+imprimirResult(8.9)
+imprimirResult(3)
+imprimirResult(-5)

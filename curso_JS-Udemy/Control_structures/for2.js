@@ -4,7 +4,6 @@ for (let index in notas) {
     console.log(`índice ${index}, nota ${notas[index]}`)
 }
 
-
 const pessoa = {
     nome: 'Luis',
     sobrenome: 'Henrique',

@@ -11,6 +11,7 @@ function out(){
         return x
     }
     return inside
+    sda
 }
 
 const myFunction = out()

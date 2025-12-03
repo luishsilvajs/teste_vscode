@@ -5,8 +5,6 @@ function formatMoney(valueDec){
 
 formatMoney(0.1 + 0.2)
 
-
-
 function formatMoney2(valueFormated){
     return valueFormated.toLocaleString('pt-BR',{
         style: 'currency',

@@ -7,3 +7,25 @@ const obj = {
     b,
     c
 }
+console.log(obj)
+
+const nomeAttr = 'nota'
+const valorAttr = 8
+
+const obj2 = {}
+obj2[nomeAttr] = valorAttr
+console.log(obj2)
+
+const obj3 = { [nomeAttr]: valorAttr }
+console.log(obj3)
+
+const obj4 = {
+    funcao1: function () {
+        //...
+    },
+    funcao2() {
+        //...
+    }
+}
+
+console.log(obj4)

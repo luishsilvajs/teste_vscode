@@ -4,7 +4,7 @@ const path = __dirname + '/archive.json'
 
 // leitura sincrona
 const conteudo = fs.readFileSync(path, 'utf-8')
-// console.log(conteudo)
+console.log(conteudo)
 
 // leitura assincrona
 fs.readFile(path, 'utf-8', (error, conteudo) => {
